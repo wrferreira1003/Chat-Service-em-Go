@@ -1,0 +1,81 @@
+2024/08/07 00:46:48 main.go:37: Starting the chat service...
+2024/08/07 00:46:48 config.go:30: .env file loaded from current directory: /root
+2024/08/07 00:46:48 config.go:37: MONGO_URI loaded: mongodb://mongo:27017
+2024/08/07 00:46:48 config.go:40: Configuration loaded
+2024/08/07 00:46:49 mongob.go:25: [GetMongoClient] Connected to MongoDB
+2024/08/07 00:46:49 main.go:48: ChatRepository created
+2024/08/07 00:46:49 main.go:71: Server is running on port 8080
+2024/08/07 00:46:51 auth_middleware.go:61: Token claims: map[exp:1.723076587e+09 iat:1.722990187e+09 jti:ba4ca80ad4a542829678a167aa630906 token_type:access user_id:1]
+2024/08/07 00:46:51 websocket_handler.go:85: Generating conversation id for users with ids user2 and user3
+2024/08/07 00:46:51 chat_repository.go:48: Getting messages for conversation with id user2-user3
+2024/08/07 00:46:51 chat_repository.go:65: Messages found: [0x400015a770 0x400015a930 0x400015aa10 0x400015aa80 0x400015ab60 0x400015ac40 0x400015ad20 0x400015ad90 0x400015ae00 0x400015ae70 0x400015aee0 0x400015afc0 0x400015b030 0x400015b110 0x400015b180 0x400015b1f0 0x400015b260]
+2024/08/07 00:46:53 auth_middleware.go:61: Token claims: map[exp:1.723076587e+09 iat:1.722990187e+09 jti:ba4ca80ad4a542829678a167aa630906 token_type:access user_id:1]
+2024/08/07 00:46:53 websocket_handler.go:85: Generating conversation id for users with ids user2 and user3
+2024/08/07 00:46:53 chat_repository.go:48: Getting messages for conversation with id user2-user3
+2024/08/07 00:46:53 chat_repository.go:65: Messages found: [0x400015b2d0 0x400015b340 0x400015b3b0 0x400015b490 0x400015b500 0x400015b570 0x400015b5e0 0x400015b6c0 0x400015b7a0 0x400015b810 0x400015b880 0x400015b8f0 0x400015b960 0x400015b9d0 0x400015ba40 0x400015bab0 0x400015bb90]
+2024/08/07 00:46:57 auth_middleware.go:61: Token claims: map[exp:1.723076587e+09 iat:1.722990187e+09 jti:ba4ca80ad4a542829678a167aa630906 token_type:access user_id:1]
+2024/08/07 00:46:57 websocket_handler.go:85: Generating conversation id for users with ids user2 and user2
+2024/08/07 00:46:57 chat_repository.go:48: Getting messages for conversation with id user2-user2
+2024/08/07 00:46:57 chat_repository.go:65: Messages found: []
+2024/08/07 00:47:00 auth_middleware.go:61: Token claims: map[exp:1.723076587e+09 iat:1.722990187e+09 jti:ba4ca80ad4a542829678a167aa630906 token_type:access user_id:1]
+2024/08/07 00:47:00 websocket_handler.go:85: Generating conversation id for users with ids user2 and user3
+2024/08/07 00:47:00 chat_repository.go:48: Getting messages for conversation with id user2-user3
+2024/08/07 00:47:00 chat_repository.go:65: Messages found: [0x400015bc00 0x400015bc70 0x400015bce0 0x400015bd50 0x400015bdc0 0x400015be30 0x400015bf10 0x40001b4000 0x40001b4070 0x40001b40e0 0x40001b4150 0x40001b41c0 0x40001b4230 0x40001b42a0 0x40001b4380 0x40001b43f0 0x40001b4460]
+2024/08/07 00:59:38 main.go:37: Starting the chat service...
+2024/08/07 00:59:38 config.go:30: .env file loaded from current directory: /root
+2024/08/07 00:59:38 config.go:37: MONGO_URI loaded: mongodb://mongo:27017
+2024/08/07 00:59:38 config.go:40: Configuration loaded
+2024/08/07 00:59:40 mongob.go:25: [GetMongoClient] Connected to MongoDB
+2024/08/07 00:59:40 main.go:48: ChatRepository created
+2024/08/07 00:59:40 main.go:71: Server is running on port 8080
+2024/08/07 01:02:38 main.go:37: Starting the chat service...
+2024/08/07 01:02:38 config.go:30: .env file loaded from current directory: /root
+2024/08/07 01:02:38 config.go:37: MONGO_URI loaded: mongodb://mongo:27017
+2024/08/07 01:02:38 config.go:40: Configuration loaded
+2024/08/07 01:02:39 mongob.go:25: [GetMongoClient] Connected to MongoDB
+2024/08/07 01:02:39 main.go:48: ChatRepository created
+2024/08/07 01:02:39 main.go:71: Server is running on port 8080
+2024/08/07 01:04:44 main.go:37: Starting the chat service...
+2024/08/07 01:04:44 config.go:30: .env file loaded from current directory: /root
+2024/08/07 01:04:44 config.go:37: MONGO_URI loaded: mongodb://mongo:27017
+2024/08/07 01:04:44 config.go:40: Configuration loaded
+2024/08/07 01:04:45 mongob.go:25: [GetMongoClient] Connected to MongoDB
+2024/08/07 01:04:45 main.go:48: ChatRepository created
+2024/08/07 01:04:45 main.go:71: Server is running on port 8080
+2024/08/07 01:07:21 main.go:37: Starting the chat service...
+2024/08/07 01:07:21 config.go:30: .env file loaded from current directory: /root
+2024/08/07 01:07:21 config.go:37: MONGO_URI loaded: mongodb://mongo:27017
+2024/08/07 01:07:21 config.go:40: Configuration loaded
+2024/08/07 01:07:22 mongob.go:25: [GetMongoClient] Connected to MongoDB
+2024/08/07 01:07:22 main.go:48: ChatRepository created
+2024/08/07 01:07:22 main.go:71: Server is running on port 8080
+2024/08/07 01:09:22 main.go:37: Starting the chat service...
+2024/08/07 01:09:22 config.go:30: .env file loaded from current directory: /root
+2024/08/07 01:09:22 config.go:37: MONGO_URI loaded: mongodb://mongo:27017
+2024/08/07 01:09:22 config.go:40: Configuration loaded
+2024/08/07 01:09:23 mongob.go:25: [GetMongoClient] Connected to MongoDB
+2024/08/07 01:09:23 main.go:48: ChatRepository created
+2024/08/07 01:09:23 main.go:71: Server is running on port 8080
+2024/08/07 01:12:12 main.go:37: Starting the chat service...
+2024/08/07 01:12:13 config.go:30: .env file loaded from current directory: /root
+2024/08/07 01:12:13 config.go:37: MONGO_URI loaded: mongodb://mongo:27017
+2024/08/07 01:12:13 config.go:40: Configuration loaded
+2024/08/07 01:12:14 mongob.go:25: [GetMongoClient] Connected to MongoDB
+2024/08/07 01:12:14 main.go:48: ChatRepository created
+2024/08/07 01:12:14 main.go:71: Server is running on port 8080
+2024/08/07 01:12:40 auth_middleware.go:61: Token claims: map[exp:1.723076587e+09 iat:1.722990187e+09 jti:ba4ca80ad4a542829678a167aa630906 token_type:access user_id:1]
+2024/08/07 01:12:40 websocket_handler.go:85: Generating conversation id for users with ids user2 and user3
+2024/08/07 01:12:40 chat_repository.go:48: Getting messages for conversation with id user2-user3
+2024/08/07 01:12:40 chat_repository.go:65: Messages found: [0x40000e2700 0x40000e28c0 0x40000e2930 0x40000e2a10 0x40000e2a80 0x40000e2b60 0x40000e2c40 0x40000e2d20 0x40000e2d90 0x40000e2e00 0x40000e2e70 0x40000e2ee0 0x40000e2fc0 0x40000e3030 0x40000e3110 0x40000e3180 0x40000e31f0]
+2024/08/07 01:13:05 auth_middleware.go:61: Token claims: map[exp:1.723076587e+09 iat:1.722990187e+09 jti:ba4ca80ad4a542829678a167aa630906 token_type:access user_id:1]
+2024/08/07 01:13:05 websocket_handler.go:85: Generating conversation id for users with ids user2 and user3
+2024/08/07 01:13:05 chat_repository.go:48: Getting messages for conversation with id user2-user3
+2024/08/07 01:13:05 chat_repository.go:65: Messages found: [0x40001483f0 0x4000148460 0x40001484d0 0x4000148540 0x40001485b0 0x4000148620 0x4000148690 0x4000148700 0x40001487e0 0x4000148850 0x40001488c0 0x4000148930 0x40001489a0 0x4000148a10 0x4000148a80 0x4000148af0 0x4000148b60]
+2024/08/07 01:13:58 auth_middleware.go:61: Token claims: map[exp:1.723076587e+09 iat:1.722990187e+09 jti:ba4ca80ad4a542829678a167aa630906 token_type:access user_id:1]
+2024/08/07 01:13:59 websocket_handler.go:85: Generating conversation id for users with ids user2 and user3
+2024/08/07 01:13:59 chat_repository.go:48: Getting messages for conversation with id user2-user3
+2024/08/07 01:13:59 chat_repository.go:65: Messages found: [0x4000137490 0x4000137500 0x4000137570 0x4000137650 0x40001376c0 0x4000137730 0x40001377a0 0x4000137810 0x4000137880 0x40001378f0 0x4000137960 0x40001379d0 0x4000137ab0 0x4000137b20 0x4000137b90 0x4000137c00 0x4000137c70]
+2024/08/07 01:15:12 auth_middleware.go:61: Token claims: map[exp:1.723076587e+09 iat:1.722990187e+09 jti:ba4ca80ad4a542829678a167aa630906 token_type:access user_id:1]
+2024/08/07 01:15:12 websocket_handler.go:85: Generating conversation id for users with ids user2 and user3
+2024/08/07 01:15:12 chat_repository.go:48: Getting messages for conversation with id user2-user3
+2024/08/07 01:15:12 chat_repository.go:65: Messages found: [0x40001481c0 0x40001482a0 0x4000148310 0x4000148380 0x40001483f0 0x4000148460 0x40001484d0 0x4000148540 0x40001485b0 0x4000148620 0x4000148690 0x4000148700 0x40001487e0 0x4000148850 0x40001488c0 0x4000148930 0x40001489a0]

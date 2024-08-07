@@ -1,0 +1,94 @@
+basePath: /
+definitions:
+  model.Message:
+    properties:
+      content:
+        type: string
+      conversation_id:
+        type: string
+      created_at:
+        type: string
+      id:
+        type: string
+      receiver_id:
+        type: string
+      sender_id:
+        type: string
+    type: object
+host: localhost:8080
+info:
+  contact:
+    email: wellingtonferreira1003@gmail.com
+    name: Wellington Ferreira
+    url: https://github.com/wrferreira1003
+  description: This is a sample chat service API.
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: Chat Service API
+  version: "1.0"
+paths:
+  /chat/messages/{userID1}/{userID2}:
+    get:
+      consumes:
+      - application/json
+      description: Obtem as mensagens de uma conversa
+      parameters:
+      - description: ID do primeiro usuário
+        in: path
+        name: userID1
+        required: true
+        type: string
+      - description: ID do segundo usuário
+        in: path
+        name: userID2
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Lista de mensagens
+          schema:
+            items:
+              $ref: '#/definitions/model.Message'
+            type: array
+        "500":
+          description: Erro interno do servidor
+          schema:
+            type: string
+      summary: Obtem as mensagens de uma conversa
+      tags:
+      - chat
+  /chat/send:
+    post:
+      consumes:
+      - application/json
+      description: Envia uma mensagem para o chat
+      parameters:
+      - description: Mensagem a ser enviada
+        in: body
+        name: message
+        required: true
+        schema:
+          $ref: '#/definitions/model.Message'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Mensagem enviada com sucesso
+          schema:
+            type: string
+        "400":
+          description: Erro na requisição
+          schema:
+            type: string
+        "500":
+          description: Erro interno do servidor
+          schema:
+            type: string
+      summary: Envia uma mensagem para o chat
+      tags:
+      - chat
+swagger: "2.0"
