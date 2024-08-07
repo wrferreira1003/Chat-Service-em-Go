@@ -24,9 +24,9 @@ _testmain.go
 *.prof
 
 
-./logs*
-./nginx_logs*
-./nginx*
+logs*
+nginx_logs*
+nginx*
 .env
 docker-compose.yml
 Dockerfile
